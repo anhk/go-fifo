@@ -6,8 +6,8 @@ import (
 	"time"
 )
 
-func TestGoFifo(t *testing.T) {
-	f := NewFIFO[string](8)
+func TestSimpleSlice(t *testing.T) {
+	f := NewSimpleSlice[string](8)
 
 	for i := 10; i < 1000; i++ {
 		f.Push(fmt.Sprintf("%v", i))

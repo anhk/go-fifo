@@ -1,3 +1,3 @@
-module github.com/anhk/fifo
+module github.com/anhk/simpleslice
 
 go 1.20
