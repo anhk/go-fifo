@@ -1,4 +1,4 @@
-package fifo
+package simpleslice
 
 import (
 	"fmt"
